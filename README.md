@@ -13,12 +13,12 @@
 
 **Topics**
 -   
--   Cloud Account Set Up
--   Cloud Command Line 
--   Cloud API
--   Cloud Console
+-   Cloud Access
+    -   Cloud Account Set Up
+    -   Cloud Command Line 
+    -   Cloud API
+    -   Cloud Console
 -   Cloud Service at a glance
--   Cloud Fundamentals
 -   Cloud Compute Resource
 -   Cloud Storage Resource
 -   Cloud Database Resource
@@ -35,4 +35,3 @@
 -
 -   Cloud for Solution Architect
 -   Cloud for System Administrator 
-
