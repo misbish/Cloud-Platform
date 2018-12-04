@@ -154,21 +154,22 @@
     7 Step Process 
     
     1)  Define Load Balancer
+           - Name it
+           - Internal or External 
+           - Add Availailty Zone / Subnets 
+    
            - Internal Load Balancer
                 - Have Internal IP Address
                 - Can only be accessed from private AWS network
-           - External Load Balancer
+           - External Load Balancer (Also called Internet Facing Load Balancer)
                 - Have Public IP Address 
                 - Receives traffic from internet and distribute to instances
                 
-       2)  Select Availability Zones  
     2)  Assign Security Groups 
-           - Instance type varies based on CPU, Memory , Storage & Networking 
-           - 4 types
-                - General Purpose 
                 
     3)  Configure Security Settings
-    4)  COnfigure Health Checks
+    
+    4)  Configure Health Checks
             - Response Timeout:
                 The amount of time to wait when receiving a response from the health check, in seconds.
                 Valid values: 2 to 60. Default: 5
@@ -192,6 +193,9 @@
                    that are marked as unhealthy 
     6)  Add Tags
     7)  Review 
+   
+    Go to Security Group , Edit security groups of Instances , to custom and address is security group of load balancer.
+    
  
     LAB:  Create Your First Classic Load Balancer
 
