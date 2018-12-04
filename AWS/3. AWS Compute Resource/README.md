@@ -210,9 +210,21 @@
           - Similar to EC2 Instance launch steps 
           
     2)  Auto Scaling Group 
-          - Defines the desired capacity of the group using scaling policies
+          - Configure Auto Scaling Group based on created Launch Configuration
+              - Name Auto Scaling Group
+              - Number of Instances to start with / Group Size
+              - Select Network & Subnet
+              - Under Advance , you can select the Load Balancer
+          - Configure Scaling Policy 
+              - Specify Range
+              - Increase & Decrease Policy
+              - Create Alram
+          - Configure Notifications
+          - Configure Tags
+          - Review
 
     LAB:  Create Your First Auto Scaling Group
+          Working with Amazon EC2 Auto Scaling Groups
           Launching Auto Scaling Groups Behind a Classic Load Balacer
           
 #Amazon Elastic Container Service (ECS)
